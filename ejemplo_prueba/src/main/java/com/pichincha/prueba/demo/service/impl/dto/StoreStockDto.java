@@ -1,4 +1,4 @@
-package com.pichincha.prueba.demo.dto;
+package com.pichincha.prueba.demo.service.impl.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

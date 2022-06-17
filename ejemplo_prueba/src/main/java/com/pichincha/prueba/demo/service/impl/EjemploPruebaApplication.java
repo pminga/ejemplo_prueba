@@ -1,4 +1,4 @@
-package com.pichincha.prueba.demo;
+package com.pichincha.prueba.demo.service.impl;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

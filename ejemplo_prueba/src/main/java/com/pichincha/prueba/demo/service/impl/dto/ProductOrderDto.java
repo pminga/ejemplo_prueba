@@ -1,4 +1,4 @@
-package com.pichincha.prueba.demo.dto;
+package com.pichincha.prueba.demo.service.impl.dto;
 
 import java.util.Date;
 import java.util.List;
@@ -12,12 +12,9 @@ import lombok.Setter;
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserStoreDto {
-	
+public class ProductOrderDto {
 	private Long id;
-	private String userName;
-	private Date createdDate;
-	
-	private List<ProductOrderDto> requestOrders;
-
+	private Date dateOrdered;
+	private List<DetailOrderDto> details;
+	private UserStoreDto userOwner;
 }

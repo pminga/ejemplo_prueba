@@ -1,23 +1,19 @@
-package com.pichincha.prueba.demo.dto;
-
-import java.util.List;
+package com.pichincha.prueba.demo.service.impl.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@Getter
 @Setter
+@Getter
 @AllArgsConstructor
 @NoArgsConstructor
-public class StoreDto {
+public class ProductDto {
+
 	
 	private Long id;
 	private String name;
-	private String category;
-	private String owner;
+	private Double price;
 	
-	private List<StoreStockDto> products;
-
 }
